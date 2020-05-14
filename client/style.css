@@ -1,0 +1,164 @@
+body {
+    background: url(../pictures/interlaced.png);
+}
+
+.logIn-content {
+    margin-top: 10%;
+    background-color: aliceblue;
+    -webkit-box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
+}
+
+.logIn-img {
+    display: block;
+    margin: auto;
+}
+
+.logIn-form {
+    max-width: 350px;
+    margin: auto;
+}
+
+.logIn-btn {
+    color: white;
+    background: rgb(82, 0, 117);
+    background: linear-gradient(90deg, rgba(82, 0, 117, 1) 0%, rgba(3, 2, 128, 1) 100%);
+    width: 100%;
+    margin-bottom: 2.2rem;
+    text-transform: uppercase;
+}
+
+.logIn-btn:hover {
+    background: transparent;
+    border: 2px solid rgba(82, 0, 117, 1);
+    text-transform: uppercase;
+    color: rgba(3, 2, 128, 1);
+}
+
+.SignUp-link {
+    text-align: center;
+    margin-bottom: 2.2rem;
+}
+.hidden {
+    display: none;
+}
+
+.signIn-content {
+    margin-top: 8%;
+    background-color: floralwhite;
+    -webkit-box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 25px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+.mg {
+    margin: 15px 0px 15px 25px;
+    overflow: hidden;
+}
+
+.profile-pic {
+    margin-top: 15px;
+}
+
+.upload-img {
+    margin-top: 20px;
+}
+@media only screen and (max-width: 750px) {
+    .form-row .form-control {
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .profile-pic {
+        display: block;
+        margin: auto;
+    }
+    .upload-img {
+        text-align: center;
+    }
+}
+
+.signUp-btn {
+    padding: 0.75rem 3rem;
+    color: white;
+    background: rgb(255, 219, 10);
+    background: linear-gradient(90deg, rgba(255, 219, 10, 1) 0%, rgba(255, 94, 0, 1) 100%);
+    text-transform: uppercase;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.signUp-btn:hover {
+    color: rgba(255, 94, 0, 1);
+    border: 2px solid rgba(255, 94, 0, 1);
+    background: transparent;
+}
+
+.userdata-content {
+    margin-top: 10%;
+    -webkit-box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 22px -9px rgba(0, 0, 0, 0.75);
+    background-color: #ffdd4a;
+}
+
+.img-user {
+    margin: auto;
+    display: block;
+}
+
+#profile-pic-plhd {
+    margin: auto;
+    display: block;
+    margin-top: 35px;
+}
+
+.change-btn {
+    text-align: center;
+}
+
+.buttons {
+    margin: auto;
+    display: block;
+}
+.custom-btn1 {
+    color: rgba(16, 0, 68, 1);
+    padding: 0.75rem 2.5rem;
+    border: 2px solid rgba(16, 0, 68, 1);
+    background: transparent;
+    text-transform: uppercase;
+}
+
+.custom-btn1:hover {
+    color: white;
+    background: rgb(0, 116, 208);
+    background: linear-gradient(77deg, rgba(0, 116, 208, 1) 0%, rgba(16, 0, 68, 1) 100%);
+    border: none;
+}
+.custom-btn2 {
+    color: white;
+    text-transform: uppercase;
+    padding: 0.75rem 2.5rem;
+    background: rgb(0, 116, 208);
+    background: linear-gradient(77deg, rgba(0, 116, 208, 1) 0%, rgba(16, 0, 68, 1) 100%);
+    border: none;
+}
+
+.custom-btn2:hover {
+    color: rgba(16, 0, 68, 1);
+    border: 2px solid rgba(16, 0, 68, 1);
+    background: transparent;
+}
